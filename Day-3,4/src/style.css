@@ -1,0 +1,58 @@
+body {
+  background-color: #0f044c;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.icon {
+  color: #787a91;
+  font-size: 30px;
+}
+
+.cross,
+.circle {
+  color: #141e61;
+}
+
+.grid {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.box {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__item {
+  background-color: #eee;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #eee;
+  margin-bottom: 16px;
+}
+
+.win__message,
+.drawn__msg {
+  text-transform: uppercase;
+}
+
+.play__again {
+  outline: none;
+  border: none;
+  border: 3px solid #eee;
+  background-color: #0f044c;
+  color: #eee;
+  padding: 8px 16px;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
